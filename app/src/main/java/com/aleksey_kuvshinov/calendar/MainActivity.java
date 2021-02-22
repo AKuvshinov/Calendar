@@ -19,8 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        Intent i;
-        i = new Intent(this, Calendar2.class);
+        Intent i = new Intent(this, Calendar2.class);
         startActivity(i);
     }
 }
